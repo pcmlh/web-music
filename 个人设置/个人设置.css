@@ -1,0 +1,99 @@
+body{
+    box-sizing: border-box;
+    background-color: aliceblue;
+    overflow-y: visible;
+}
+table{
+    width: 65%;
+}
+td{
+    font-size:1em;
+    padding:3px 0px 2px 0px;
+}
+
+h3{
+    font-weight: 900;
+    font-size: medium;
+}
+div{
+    width: 35px;
+    height: 35px;
+    background-color: #ffffff;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    border-radius: 17.5px;
+    float: left;
+}
+.qui-header1{
+    height: 60px;
+    background-color:#337ab7;
+    width: 100%;
+    overflow: hidden;
+    line-height: 60px;
+    font-size: large;
+}
+.qui-header2{
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 60px;
+    font-size: large;
+}
+.qui-section1{
+    border-top: 1px solid #000000;
+    height: 50%;
+    background-color: firebrick;
+}
+.qui-section2{
+    width: 80%;
+    left: 20%;
+    height: 80%;
+    color: gray;
+    overflow-y: scroll;
+    position: fixed;
+}
+h1{
+     font-weight: bolder;
+     font-size: large;
+    color: black;
+ }
+i{
+    color: black;
+}
+table{
+    color: black;
+    line-height: 45px;
+}
+.qui-section3{
+    box-sizing: border-box;
+    padding: 0 20px;
+    width: 97%;
+    float: left;
+    line-height: 25px;
+    background-color: aliceblue;
+    overflow: hidden;
+    border-top: 1px solid #000000;
+}
+.qui-aside{
+    width: 16%;
+    float: left;
+    border-right: 1px solid #000000;
+}
+.qui-nav{
+    float: right;
+    padding: 30px;
+}
+.qui-nav li{
+    width: 100%;
+    text-align: right;
+    text-decoration: none;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    font-size: medium;
+
+}
+.qui-nav a{
+    text-decoration: none;
+    color: black;
+}

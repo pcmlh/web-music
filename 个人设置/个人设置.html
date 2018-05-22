@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人设置</title>
+    <link href="个人设置.css" rel="stylesheet" type="text/css"/>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="个人设置.css">
+</head>
+<body>
+<header class="qui-header1">
+    &nbsp;<i class="fa fa-podcast" style="color: white;font-size: larger">网易云音乐</i>
+    &nbsp;&nbsp;&nbsp;&nbsp;<br>
+</header>
+<header class="qui-header2">
+    <a href="1111.html" style="text-decoration: none"> <i style="font-size: large;font-style: normal">< </i></a>设置
+    </header>
+<section class="qui-section1">
+    <section class="qui-section2">
+        <section class="qui-section3">
+            <h1 style="color: black">账号</h1>
+            <i class="fa fa-weixin" style="font-size: 1.7em"></i>&nbsp;&nbsp;
+            <i class="fa fa-qq" style="font-size: 1.7em"></i>&nbsp;&nbsp;
+            <i class="fa fa-weibo" style="font-size: 1.7em"></i>
+            <i class="fa fa-" style="font-size: 1.7em"></i>
+            <br><br>
+            <input type="button" style="color: #000000;width: 98px;" value="修改个人信息">
+            <input type="button" style="color: #000000;width: 110px;" value="寻找并邀请好友">
+            <br><br>
+        </section>
+        <section class="qui-section3">
+            <h1 style="color: black">常规</h1>
+            <i style="font-size: medium;color: black;font-style: normal">字体选择：</i>如果字体显示不清晰，请在控制面板—字体设置中启用系统clear type设置<br>
+            <select style="width: 160px">
+                <option>-请选择-</option>
+                <option selected="selected"> 默认</option>
+                <option> 仿宋</option>
+                <option> 华文中宋</option>
+                <option> 华文宋体</option>
+                <option> 华文楷体</option>
+                <option> 华文细黑</option>
+                <option> 华文行楷</option>
+                <option> 华文新魏</option>
+            </select><br><br>
+            <i style="font-size: medium;color: black;font-style: normal">启动：</i><br>
+            <input type="checkbox" checked="checked"/>开机自动运行<br><br>
+            <i style="font-size: medium;color: black;font-style: normal">关联：</i><br>
+            <input type="checkbox" />将网易云音乐设为默认播放器<br><br>
+            <i style="font-size: medium;color: black;font-style: normal">动画：</i><br>
+            <input type="checkbox" />禁用动画效果<i style="color: black;font-style: normal;font-size: small;padding-left: 10px">（减少部分资源占用）</i><br><br>
+            <i style="font-size: medium;color: black;font-style: normal">GPU加速：</i><br>
+            <input type="checkbox" />禁用GPU加速<i style="color: black;font-style: normal;font-size: small;padding-left: 10px">(关闭图形加速，如果单曲播放页或mv播放黑屏请勾选)</i><br><br>
+            <i style="font-size: medium;color: black;font-style: normal">关闭主页板：</i><br>
+            <input type="radio" name="zhuyeban"/>最小化到系统托盘<br>
+            <input type="radio" name="zhuyeban" checked="checked">退出云音乐<br><br>
+            <i style="font-size: medium;color: black;font-style: normal">高清屏适配：</i>禁用后，建议重启软件<br>
+            <input type="checkbox" checked="checked"/>禁用系统缩放比例<i style="color: black;font-style: normal;font-size: small;padding-left: 10px">（减少部分资源占用）</i><br><br>
+        </section>
+        <section class="qui-section3">
+            <h1 style="color: black">播放</h1>
+            <i style="font-size: medium;color: black;font-style: normal">播放列表：</i>单曲、节目<br>
+            <input type="radio" name="list"/>双击播放单曲时，用当前单曲所在的歌曲列表替换播放列表（节目同理）<br>
+            <input type="radio" name="list" checked="checked">双击播放单曲时，仅把当前单曲添加到播放列表（节目同理）<br><br>
+            <i style="font-size: medium;color: black;font-style: normal">自动播放：</i><br>
+            <input type="checkbox" />程序启动时自动播放<br><br>
+            <i style="font-size: medium;color: black;font-style: normal">播放进度：</i><br>
+            <input type="checkbox" checked="checked" />程序启动时记住上一次播放进度<i style="color: black;font-style: normal;font-size: small;padding-left: 10px"></i><br><br>
+            <i style="font-size: medium;color: black;font-style: normal">效果：</i><br>
+            <input type="checkbox" checked="checked"/>开启音乐淡入淡出<i style="color: black;font-style: normal;font-size: small;padding-left: 10px">(仅支持输出设备directsound)</i><br><br>
+            <i style="font-size: medium;color: black;font-style: normal">输出设备：</i>播放下一首歌时生效<br>
+            <select style="width: 400px">
+                <option>-请选择-</option>
+                <option selected="selected"> directsound住声音驱动程序</option>
+                <option>  directsound扬声器（Realtek high definition audio</option>
+                <option> waveout：Microsoft 声音映射器</option>
+            </select><br><br>
+        </section>
+        <section class="qui-section3">
+            <h1>消息与隐私</h1>
+            <i style="font-size: medium;color: black;font-style: normal">私信：</i><br>
+            <input type="radio" name="sixin" checked="checked" />所有人<br>
+            <input type="radio" name="sixin">我所关注的人<br><br>
+            <i style="font-size: medium;color: black;font-style: normal">通知：</i><br>
+            <input type="checkbox" checked="checked"/>歌单被收藏<br>
+            <input type="checkbox" checked="checked">收到赞<br>
+            <input type="checkbox" checked="checked">新粉丝<br><br>
+            <i style="font-size: medium;color: black;font-style: normal">推荐动态：</i><br>
+            <input type="checkbox" checked="checked"/>“朋友”页显示推荐动态<i style="color: black;font-style: normal;font-size: small;padding-left: 10px">(关闭后，朋友页将不再出现新的推荐动态)</i><br><br>
+            <i style="font-size: medium;color: black;font-style: normal">我的听歌排名：</i><br>
+            <input type="radio" name="paiming" checked="checked"/>所有人可见<br>
+            <input type="radio" name="paiming"/>我说关注的人可见<br>
+            <input type="radio" name="paiming">仅自己可见<br><br>
+            <i style="font-size: medium;color: black;font-style: normal">黑名单设置：</i><br>
+            我的黑名单
+            <input type="button" style="color: #000000;width: 60px;" value="查看"><br><br>
+        </section>
+        <section class="qui-section3">
+            <h1>快捷键</h1>
+            <table>
+                <tr>
+                    <td>功能说明</td><td>快捷键</td><td>全局快捷键</td>
+                </tr>
+                <tr>
+                    <td>播放/暂停</td> <td><input type="text" value="   Ctrl+P"/></td><td><input type="text" value="   Ctrl+P"/></td>
+                </tr>
+                <tr>
+                    <td>上一首</td><td><input type="text" value="   Ctrl+P"/></td><td><input type="text" value="   Ctrl+P"/></td>
+                </tr>
+                <tr>
+                    <td>下一首</td><td><input type="text" value="   Ctrl+P"/></td><td><input type="text" value="   Ctrl+P"/></td>
+                </tr>
+                <tr>
+                    <td>音量加</td><td><input type="text" value="   Ctrl+P"/></td><td><input type="text" value="   Ctrl+P"/></td>
+                </tr>
+                <tr>
+                    <td>音量加</td><td><input type="text" value="   Ctrl+P"/></td><td><input type="text" value="   Ctrl+P"/></td>
+                </tr>
+                <tr>
+                    <td>mini/完整模式</td><td><input type="text" value="   Ctrl+P"/></td><td><input type="text" value="   Ctrl+P"/></td>
+                </tr>
+                <tr>
+                    <td>喜欢歌曲</td><td><input type="text" value="   Ctrl+P"/></td><td><input type="text" value="   Ctrl+P"/></td>
+                </tr>
+                <tr>
+                    <td>打开/关闭歌词</td><td><input type="text" value="   Ctrl+P"/></td><td><input type="text" value="   Ctrl+P"/></td>
+                </tr>
+            </table>
+            <br>
+            <input type="checkbox" checked="checked"/>启用全局快捷键
+            <i style="color: black;font-style: normal;font-size: small">（云音乐在后台时也能响应）</i>
+            <input type="button" style="color: #000000;width: 70px;" value="恢复默认">
+            <br><br>
+
+        </section>
+        <section class="qui-section3">
+            <h1>下载设置</h1>
+            <i style="font-size: medium;color: black;font-style: normal">高清屏适配：音质选择</i><br>
+            <table>
+                <tr>
+                    <td>试听</td><td><input type="radio" name="shiting">普通（128kbit/s） </td><td><input type="radio" name="shiting">较高（192kbit/s）</td><td><input type="radio" name="shiting" checked="checked">极高（320kbit/s）</td><td><input type="radio" name="shiting">无损音质</td>
+                </tr>
+                <tr>
+                <td>下载</td><td><input type="radio" name="xiazai">普通（128kbit/s） </td><td><input type="radio" name="xiazai">较高（192kbit/s）</td><td><input type="radio" name="xiazai" checked="checked">极高（320kbit/s）</td><td><input type="radio" name="xaizai">无损音质</td>
+                </tr>
+            </table><br>
+            <i style="font-size: medium;color: black;font-style: normal">下载目录：</i>默认将音乐文件下载在该文件夹中<br>
+            F:\CloudMusic&nbsp;&nbsp;&nbsp;<input type="button" style="color: #000000;width: 90px;" value="更改目录"><br><br>
+            <i style="font-size: medium;color: black;font-style: normal">缓存目录：</i><br>
+            C:\Users\Administrator\AppData\Locat\Netease\CloudMusic\Cache&nbsp;&nbsp;&nbsp;<input type="button" style="color: #000000;width: 90px;" value="更改目录"><br><br>
+            <i style="font-size: medium;color: black;font-style: normal">缓存设置：</i><br>
+            缓存最大占用<input type="range" min="0" max="1G" style="width: 200px">&nbsp;<i style="color: cornflowerblue">1G</i>
+            &nbsp;&nbsp;&nbsp;<input type="button" style="color: #000000;width: 90px;" value="清除缓存"><br><br>
+            <i style="font-size: medium;color: black;font-style: normal">音乐命名格式：</i><br>
+            <input type="radio" name="geshi" />歌曲名<br>
+            <input type="radio" name="geshi" checked="checked"/>歌手-歌曲名<br>
+            <input type="radio" name="geshi">歌曲名-歌手<br><br>
+            <i style="font-size: medium;color: black;font-style: normal">文件智能分类：</i><br>
+            <input type="radio" name="fenlei" checked="checked"/>不分文件夹<br>
+            <input type="radio" name="fenlei"/>按歌手分文件夹<br>
+            <input type="radio" name="fenlei">按歌手\专辑分文件夹<br><br>
+        </section>
+        <section class="qui-section3">
+            <h1>歌词</h1>
+            <i style="font-size: medium;color: black;font-style: normal">类型：</i><br>
+            <input type="radio" name="type" checked="checked"/>桌面歌词<br>
+            <input type="radio" name="type">软件内词栏<br><br>
+            <i style="font-size: medium;color: black;font-style: normal">启用：</i><br>
+            <input type="checkbox" />启用歌词<br>
+            <input type="checkbox" checked="checked">外文歌词显示翻译<br><br>
+            <i style="font-size: medium;color: black;font-style: normal">总在最前：</i><br>
+            <input type="checkbox" checked="checked">启用总在最前<br><br>
+            <i style="font-size: medium;color: black;font-style: normal">更改配色方案：</i><br>
+            <table>
+                <tr>
+                    <td>已播放<input type="color" value="#ff0000"></td><td>未播放<input type="color" value="#eeeeee"></td>
+                    <td>预设方案
+                        <select>
+                            <option>自定义</option>
+                            <option selected="selected">酷炫黑</option>
+                            <option>可爱粉</option>
+                            <option>清新绿</option>
+                            <option>天际蓝</option>
+                            <option>土豪金</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <i style="font-size: medium;color: black;font-style: normal">调整字号：</i><br>
+            <input type=number min="36" max="96" value="36" style="width: 100px"><br><br>
+            <i style="font-size: medium;color: black;font-style: normal">字体选择：</i><br>
+            <select>
+                            <option>默认</option>
+                            <option selected="selected">微软雅黑</option>
+                            <option>Arial Unicode MS</option>
+                            <option>Ebrima</option>
+                            <option>Gadugi</option>
+                            <option>Leelawadee UI</option>
+            </select><br><br>
+            <i style="font-size: medium;color: black;font-style: normal">更改单双行：</i><br>
+            <input type="radio" name="danshuang" checked="checked"/>单行<br>
+            <input type="radio" name="danshuang">双行<br><br>
+            <i style="font-size: medium;color: black;font-style: normal">更改对齐方式：</i><br>
+            <select>
+                <option>左对齐</option>
+                <option selected="selected">居中</option>
+                <option>右对齐</option>
+            </select><br><br><br>
+            </section>
+    </section>
+    <aside class="qui-aside">
+    <nav class="qui-nav">
+        <ul>
+            <a href="#"><li>账号</li></a>
+            <a href="#"><li>常规</li></a>
+            <a href="#"><li>播放</li></a>
+            <a href="#"><li>消息与隐私</li></a>
+            <a href="#"><li>快捷键</li></a>
+            <a href="#"><li>下载设置</li></a>
+            <a href="#"><li>歌词</li></a>
+        </ul>
+    </nav>
+    </aside>
+</section>
+</body>
+</html>

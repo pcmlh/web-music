@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>云音乐</title>
+    <link href="../cs/main.css" rel="stylesheet" type="text/css">
+    <link href="../cs/shouye.css" rel="stylesheet" type="text/css">
+    <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <base target="_blank">
+</head>
+<body>
+<header class="qiu-header">
+    <h2 style="color: white ">&nbsp;&nbsp;&nbsp;&nbsp;云音乐</h2>
+    <form action="#" method="post" name="search" autocomplete="true">
+        <input  type="text" placeholder="搜索音乐，视频，歌词，电台"/>&nbsp;&nbsp;
+        <button type="submit" style="color: #337ab7" ><i class="fa fa-search" aria-hidden="true"></i></button>
+    </form>
+    <div class="qiu-tb">
+        <nav>
+            <ul>
+                <li><a href="#" style="color:whitesmoke"><i class="fa fa-user-circle-o" aria-hidden="true"><span style="color: white">&nbsp;&nbsp;未登录</span></i></a> </li>
+                <li><a href="#" style="color:whitesmoke"><i class="fa fa-envelope" aria-hidden="true"></i></a> </li>
+                <li><a href="../../个人设置/个人设置.html" style="color:whitesmoke"><i class="fa fa-cog" aria-hidden="true"></i> </a> </li>
+                <li><a href="#" style="color:whitesmoke"><i class="fa fa-compress" aria-hidden="true"></i> </a> </li>
+                <li><a href="#" style="color:whitesmoke"><i class="fa fa-expand" aria-hidden="true"></i></a> </li>
+                <li><a href="#" style="color:whitesmoke"><i class="fa fa-times" aria-hidden="true"></i></a> </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section class="qiu-page">
+    <aside class="qiu-asides">
+        <section class="qiu-aside">
+            <nav class="qiu-asideNav">
+                <h2>推荐</h2>
+                <ul>
+                    <li><a href="#"><span><i class="fa fa-music" fa-2x aria-hidden="true"></i>&nbsp;&nbsp;发现音乐</span></a> </li>
+                    <li><a href="#"><span><i class="fa fa-signal" aria-hidden="true"></i>&nbsp;&nbsp;私人FM</span></a> </li>
+                    <li><a href="../../MV首页/MV-mv4/MV.html"><span><i class="fa fa-video-camera" aria-hidden="true"></i>&nbsp;&nbsp; MV</span></a> </li>
+                    <li><a href="../../动态/html/moment.html"><span><i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp; 动态</span></a> </li>
+                </ul>
+            </nav>
+
+            <nav class="qiu-asideNav">
+                <h2>我的音乐</h2>
+                <ul>
+                    <li><a href="../../音乐播放器/html/music%20player.html"><span><i class="fa fa-headphones" aria-hidden="true"></i>&nbsp;&nbsp; 本地音乐</span></a> </li>
+                    <li><a href="#"><span><i class="fa fa-download" fa-3x aria-hidden="true" ></i>&nbsp;&nbsp;下载管理</span></a> </li>
+                </ul>
+            </nav>
+
+            <nav class="qiu-asideNav">
+                <h2>创建的歌单</h2>
+                <ul>
+                    <li><a href="#"><span><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;&nbsp;我喜欢的音乐</span></a> </li>
+                </ul>
+            </nav>
+        </section>
+    </aside>
+    <section class="container">
+        <div class="qiu-ml">
+            <nav>
+                <ul>
+                    <li><a class="active" href="#">个性推荐</a> </li>
+                    <li><a href="#">歌单</a> </li>
+                    <li><a href="#">主播电台</a> </li>
+                    <li><a href="#">排行榜</a> </li>
+                    <li><a href="#">歌手</a> </li>
+                    <li><a href="#">最新音乐</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <section class="headers">
+            <div id="slidershow" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li class="active" data-target="#slidershow" dataslide-to="0"></li>
+                    <li data-target="#slidershow" data-slide-to="1"></li>
+                    <li data-target="#slidershow" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="#">
+                            <img src="../image/pic15.png" style="height: 300px; margin: 0 auto;">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="../image/pic16.png "style="height: 300px; margin: 0 auto;">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="../image/pic17.png "style="height: 300px; margin: 0 auto;">
+                        </a>
+                    </div>
+                </div>
+
+                <a class="left carousel-control" href="#slidershow" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#slidershow" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+            <script src="../lib/jquery/jquery-1.11.0.min.js"></script>
+            <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+        </section>
+        <div class="qiu-gd">
+            <h4>推荐歌单
+                <h7>更多>></h7>
+            </h4>
+
+        </div>
+        <div class="items">
+            <div class="iteml">
+                <div class="pic">
+                    <img src="../image/pic1.png" width="230px" height="250px" alt="">
+                </div>
+                <div class="desc">
+                    <div class="detail"><i>根据你的音乐口味生成每日更新</i></div>
+                </div>
+            </div>
+            <div class="iteml">
+                <div class="pic">
+                    <img src="../image/pic4.png" width="230px" height="250px" alt="">
+                </div>
+                <div class="desc">
+                    <div class="detail"><i>编辑推荐：致青春：愿你永葆一颗青春的心</i></div>
+                </div>
+            </div>
+            <div class="iteml">
+                <div class="pic">
+                    <img src="../image/pic5.png"width="230px" height="250px" alt="">
+                </div>
+                <div class="desc">
+                    <div class="detail"><i>让音乐为你讲述一个迷人的故事</i></div>
+                </div>
+            </div>
+            <div class="iteml">
+                <div class="pic">
+                    <img src="../image/pic6.png"width="230px" height="250px" alt="">
+                </div>
+                <div class="desc">
+                    <div class="detail"><i>根据你喜欢的单曲《Yesterday Once More》推荐</i></div>
+                </div>
+            </div>
+            <div class="iteml">
+                <div class="pic">
+                    <img src="../image/pic7.png" width="230px" height="250px" alt="">
+                </div>
+                <div class="desc">
+                    <div class="detail"><i>根据你喜欢的单曲《All We Know(Venera&Rick ...</i></div>
+                </div>
+            </div>
+        </div>
+        <div class="items">
+            <div class="iteml">
+                <div class="pic">
+                    <img src="../image/pic8.png" width="230px" height="250px" alt="">
+                </div>
+                <div class="desc">
+                    <div class="detail"><i>根据你喜欢的单曲《All We Know(Venera&Rick ...</i></div>
+                </div>
+            </div>
+            <div class="iteml">
+                <div class="pic">
+                    <img src="../image/pic9.png"width="230px" height="250px alt="">
+                </div>
+                <div class="desc">
+                    <div class="detail"><i>根据你喜欢的单曲《等》推荐</i></div>
+                </div>
+            </div>
+            <div class="iteml">
+                <div class="pic">
+                    <img src="../image/pic10.png" width="230px" height="250px alt="">
+                </div>
+                <div class="desc">
+                    <div class="detail"><i>根据你喜欢的单曲《Greeny》推荐</i></div>
+                </div>
+            </div>
+            <div class="iteml">
+                <div class="pic">
+                    <img src="../image/pic11.png" width="230px" height="250px alt="">
+                </div>
+                <div class="desc">
+                    <div class="detail"><i>根据你喜欢的单曲《All We Know(Venera&Rick ...</i></div>
+                </div>
+            </div>
+            <div class="iteml">
+                <div class="pic">
+                    <img src="../image/pic12.png"width="230px" height="250px alt="">
+                </div>
+                <div class="desc">
+                    <div class="detail"><i>根据你喜欢的单曲《Greeny》推荐</i></div>
+                </div>
+            </div>
+            <div class="iteml">
+                <div class="pic">
+                    <img src="../image/pic13.png" width="230px" height="250px alt="">
+                </div>
+                <div class="desc">
+                    <div class="detail"><i>编辑推荐：走在阳光穿透的绿荫下，享受着初夏凉风</i></div>
+                </div>
+            </div>
+            <div class="iteml">
+                <div class="pic">
+                    <img src="../image/pic14.png" width="230px" height="250px alt="">
+                </div>
+                <div class="desc">
+                    <div class="detail"><i>根据你喜欢的单曲《PLANET》推荐</i></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</section>
+<footer>
+
+</footer>
+</body>
+</html>
